@@ -11,8 +11,8 @@ const JokeSchema = new mongoose.Schema({
     punchline: {type: String} 
 }, { timestamps: true });
 
-// Create a Mongo Database collection called 'joke' usign blueprint created before and assign it in variable 'JokeModel'
-const JokeModel = mongoose.model("joke", JokeSchema);
+// Create a Mongo Database collection called 'Joke' usign blueprint created before and assign it in variable 'JokeModel'
+const JokeModel = mongoose.model("Joke", JokeSchema);
 
 // Export variable 'JokeModel' that holds the schema for our collection model
 module.exports = JokeModel;
